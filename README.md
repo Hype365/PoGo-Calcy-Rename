@@ -188,7 +188,7 @@ _Conditions also support the following operators:_
 
 2. It's not pasting the pokémon's name!
 
-    Unfortunately, the paste key event doesn't work on older versions of Android. Use the `--nopaste` argument to paste it by tapping (make sure you edit the `locations:` accordingly).
+    Unfortunately, the paste key event doesn't work on older versions of Android. Use the `--touch-paste` argument to paste it by tapping (make sure you edit the `locations:` accordingly).
 
 3. It's going too fast for my phone! :O
 
