@@ -27,7 +27,7 @@ blacklist: !include blacklist.yaml
 
 actions:
     - actions:
-        rename-calcy: # Rename normally
+        rename_calcy: # Rename normally
 
 
 iv_regexes:
