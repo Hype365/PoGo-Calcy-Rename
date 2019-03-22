@@ -11,7 +11,7 @@ locations:
     dismiss_calcy: [540, 1170]
     favorite_button_box: [960, 142, 1001, 180]
     favorite_button: [970, 160]
-	rename: [530, 880]
+    rename: [530, 880]
     edit_box: [90, 1090] # only used with --touch-paste
     paste: [483, 1092] # only used with --touch-paste
     rename_ok: [540, 1050]
@@ -26,20 +26,20 @@ waits:
     appraise_button: 1
     calcy_appraisal_save_button: 3
     continue_appraisal: 0.3
-	scroll_to_moves: 1
+    scroll_to_moves: 1
     scroll_to_top: 1
 
 blacklist: !include blacklist.yaml
 
 actions:
 	- conditions:
-		success: false
+	    success: false
 	  actions:
         rename: "! Failed"
 		
 	- conditions:
-		success: true
-      actions:
+	    success: true
+	  actions:
         rename: {calcy}
 
 
