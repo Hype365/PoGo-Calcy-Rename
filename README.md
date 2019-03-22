@@ -20,7 +20,7 @@ This script essentially blindly sends touch events to your phone. If a popup app
 
 ### Configuration
 
-*You only need to perform this steps once*
+*You only need to perform these steps once*
 
 - Connect your phone to the computer via `adb` (you have to enable debugging in **Settings > Developer options**).
 - Copy or rename `config.example.yaml` to `config.yaml`.
