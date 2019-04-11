@@ -1,9 +1,5 @@
-<<<<<<< HEAD
-# Change location values if you get unexpected results
-=======
 ## Change location values if you get unexpected results
 ## Check out docs/locations/ for images for each location
->>>>>>> aefd4b1774d07209fed1a2686a682546b5aad1e4
 locations:
     close_calcy_dialog: [880, 1160]
     scroll_to_moves: [45, 1864, 45, 1200]
@@ -17,21 +13,12 @@ locations:
     favorite_button_box: [960, 142, 1001, 180]
     favorite_button: [970, 160]
     rename: [530, 880]
-<<<<<<< HEAD
-    edit_box: [90, 1090] # only used with --touch-paste
-    paste: [483, 1092] # only used with --touch-paste
-    rename_ok: [540, 1050]
-    next: [980, 280]
-
-# Increase wait times if the script runs faster than your phone
-=======
     edit_box: [90, 1090]    # only used with --touch-paste
     paste: [483, 1092]      # only used with --touch-paste
     rename_ok: [540, 1050]
     next: [980, 280]
 
 ## Increase wait times if the script runs faster than your phone
->>>>>>> aefd4b1774d07209fed1a2686a682546b5aad1e4
 waits:
     next: 0.5
     rename: 0.5
@@ -53,24 +40,11 @@ blacklist: !include blacklist.yaml
 ## file ACTIONS.md, so you can customize the order in which your pokémon will
 ## be shown when sorting by A-Z.
 actions:
-<<<<<<< HEAD
-	- conditions:
-	    success: false
-	  actions:
-        rename: "! Failed"
-		
-	- conditions:
-	    success: true
-	  actions:
-        rename: {calcy}
-
-=======
     # Renames failed scans for manual verification:
     - conditions:
         success: false
       actions:
         rename: "! Failed"
->>>>>>> aefd4b1774d07209fed1a2686a682546b5aad1e4
 
     # Renames everything else exactly as your CalcyIV setup:
     - conditions:
